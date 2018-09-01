@@ -3,6 +3,7 @@ import { Option } from "@nozzlegear/railway";
 import { Rank, Results } from "app";
 import { HeaderImage } from "./header_image";
 import { Results as ResultsComponent } from "./results";
+import { RankMessage } from "./rank_message";
 
 interface Props extends React.Props<any> {
     ranks: Rank[];
@@ -24,12 +25,13 @@ export function HomePage({ desiredRank, characterList, error, ranks, results }: 
             <h3>{"Rank Checker"}</h3>
             <p>
                 {
-                    "This tool will take a list of character names and compare it to the list of guild members to determine which members are not at the desired rank."
+                    "This tool will take a list of character names and compare it to the list of guild members to determine which members are not at the desired rank. "
                 }
                 {
                     "Please note that the character name must match the in-game name exactly, including accents and other special characters."
                 }
             </p>
+            <RankMessage />
             <hr />
             <form method="POST" action="/check">
                 <div className="form-group">
