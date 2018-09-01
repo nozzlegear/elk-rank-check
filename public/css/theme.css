@@ -16,6 +16,20 @@ img {
     align-items: center;
 }
 
-body {
-    padding-bottom: 100px;
+footer {
+    margin-top: 48px;
+    border-top: 1px solid rgb(255, 255, 255);
+    width: 100%;
+    display: block;
+    padding: 48px;
+    background-color: rgb(247, 247, 247);
+}
+
+footer a {
+    color: rgb(108, 117, 125);
+}
+
+footer a:hover,
+footer a:focus {
+    color: #007bff;
 }

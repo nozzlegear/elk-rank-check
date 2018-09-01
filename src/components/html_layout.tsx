@@ -77,6 +77,14 @@ export function HtmlLayout({ children }: React.Props<any>) {
                 {/* <div style={{ display: "none" }}>
                     <script async src="/public/js/client.js" />
                 </div> */}
+                <footer>
+                    <div className="container">
+                        {"Source code available at "}
+                        <a href="https://github.com/nozzlegear/elk-rank-check">
+                            {"https://github.com/nozzlegear/elk-rank-check"}
+                        </a>
+                    </div>
+                </footer>
             </body>
         </html>
     );
