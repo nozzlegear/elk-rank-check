@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "lib": ["es2015"],
+        "outDir": "./bin",
+        "jsx": "react",
+        "strict": true,
+        "sourceMap": true,
+        "downlevelIteration": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "baseUrl": ".",
+        "paths": {
+            "*": ["typings/*"]
+        },
+        "esModuleInterop": true
+    },
+    "include": ["src", "webpack.config.ts"]
+}

@@ -1,0 +1,21 @@
+img {
+    display: block;
+    margin: 0 auto;
+    max-height: 300px;
+    padding: 30px;
+}
+
+.error,
+.red {
+    color: red;
+}
+
+.form-group label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    padding-bottom: 100px;
+}
