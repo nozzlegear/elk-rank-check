@@ -132,4 +132,4 @@ app.use((err: Error, req: express.Request, res: express.Response, next: express.
     return next();
 });
 
-app.listen(3000, "0.0.0.0", () => console.log("App listening on localhost:3000"));
+app.listen(3000, "0.0.0.0", () => console.log("App listening on 0.0.0.0:3000"));
