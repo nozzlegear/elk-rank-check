@@ -7,7 +7,7 @@ RUN touch /tmp/lock
 # Restore packages first to take advantage of cache
 COPY package.json yarn.lock ./ 
 # RUN yarn install --production=false
-RUN yarn install --production=false
+RUN yarn install
 
 # Copy everything else
 COPY . . 
